@@ -5,7 +5,7 @@ let title=document.querySelector('.title');
 
 function scrollParallax(){
     let scrollTop=document.documentElement.scrollTop;
-    parallax.style.transform ='translateY('+ scrollTop * -0.7 +'px)';
+    parallax.style.transform ='translateY('+ scrollTop * -0.9 +'px)';
     // title.style.transform ='translateY('+ scrollTop * .05 +'px)';
 
 }

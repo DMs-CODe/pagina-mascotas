@@ -6,7 +6,7 @@ html,body{
 
 .contenedor{
     position: relative;
-    height: 50vh;
+    height: 55vh;
     overflow:hidden;
     justify-content: center;
 }
@@ -26,16 +26,18 @@ html,body{
     height: 100vh;
 }
    
-/* .title {
+.title {
         text-align: center;
         font-size: 75px;
         text-shadow: 1px 1px 2px #000 ;
         color: gray;
-   } */
+        background-color: #f4fcfc;
+   }
  
    
 .titulo-galeria{
     margin-top: 20vh;
+    text-shadow: 1px 1px 2px #000 ;
 }   
 
 .galeria img{
@@ -46,33 +48,57 @@ html,body{
 }
 
 img:hover{
-cursor: pointer;
-opacity: 0.8;
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: ease-in-out;
 }
 
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes a{
+    margin: 8px;
+    font-size: 30px;
+    color: black;
+}
+
+.redes a:hover{
+    /* font-size: 50px; */
+    transform: scale(1.8);
+    transition: ease-in-out;
+}
 
 
 /* Se agregan los cambios para pantallas mobiles */
  
- /* @media screen and (max-width: 680px){
-    .container{
+ @media screen and (max-width: 680px){
+    .contenedor{
         position: relative;
-        height: 300px;
+        height: 75vh;
         overflow:hidden;
-        margin: 5px;
-        display: flex;
         justify-content: center;
     }
     
-    .parallax{
-    position: absolute;
-    background-image: url(media/header_dog.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    
+    .espacio{
+        height: 25vh;
+        background-color: #f4fcfc;
     }
+    
   
+.redes a{
+    margin: 8px;
+    font-size: 50px;
+    color: black;
+}
 
- } */
+
+.redes a:hover{
+    transform: none;
+}
+
+
+
+ }
