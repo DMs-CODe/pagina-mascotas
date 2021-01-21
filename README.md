@@ -1,9 +1,9 @@
 ﻿# Pagina-mascotas
  
-<h3> Pagina ejemplo Mascostas</h3>
+<h3> Pagina ejemplo Mascostas 😺🐶</h3>
 
 <div>
-  La siguiente pagina trae como ejemplo la utilización de:
+  La siguiente pagina contiene como ejemplo la utilización de:
 <br>
  <ul>
    <p> HTML </p>
